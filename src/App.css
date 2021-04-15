@@ -32,6 +32,14 @@ li {
   padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@font-face {
+  font-family: 'adinekirnberg';
+  src:url(./Assets/adinekirnberg/AdineKirnberg.ttf);
+}
+
 
 /* ==================================================
                 Common css end

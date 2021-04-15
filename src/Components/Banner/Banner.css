@@ -1,0 +1,95 @@
+.bg_cover {
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-wrap {
+    position: relative;
+}
+
+.banner-text {
+    padding-top: 191px;
+    padding-bottom: 137px;
+}
+
+.banner-text span {
+    color: #ffffff;
+    font-size: 60px;
+    display: inline-block;
+    font-family: 'adinekirnberg', serif;
+}
+
+.banner-text h1 {
+    font-size: 99px;
+    font-family: "Abril Fatface", cursive;
+    color: #ffffff;
+    line-height: 1;
+    margin-top: -65px;
+    margin-bottom: 18px;
+    font-weight: 500;
+}
+
+.banner-text p {
+    color: #ffffff;
+    padding-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 0px;
+}
+
+.text-space {
+    letter-spacing: 10px;
+}
+
+.banner-text a {
+	margin-top: 40px;
+}
+
+.theme-btn {
+	display: inline-block;
+	padding: 20px 30px;
+	color: #ffffff;
+	background: #b7c5a9;
+	text-align: center;
+	position: relative;
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+}
+
+.theme-btn::after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	width: 60px;
+	background: #ffffff;
+	left: 125%;
+	top: 50%;
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transform: translateX(-100%);
+	-webkit-transform: translateX(-100%);
+	-moz-transform: translateX(-100%);
+	-ms-transform: translateX(-100%);
+	-o-transform: translateX(-100%);
+}
+
+.theme-btn:hover {
+	padding-right: 45px;
+	color: #ffffff;
+}
+
+.banner-right {
+	position: absolute;
+	right: -105px;
+	top: 125px;
+}

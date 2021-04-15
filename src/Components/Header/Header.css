@@ -1,0 +1,24 @@
+.main_menu {
+    padding: 42px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.main_menu .navbar-nav a {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Arimo', sans-serif;
+    text-transform: capitalize;
+    padding-left: 56px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.main_menu .navbar-nav a:hover {
+    color: #b7c5a9;
+}
