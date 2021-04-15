@@ -9,7 +9,8 @@ ol {
   list-style: none;
 }
 
-a {
+a,
+span {
   display: inline-block;
   text-decoration: none;
 }
@@ -38,7 +39,7 @@ li {
 
 @font-face {
   font-family: 'adinekirnberg';
-  src:url(./Assets/adinekirnberg/AdineKirnberg.ttf);
+  src: url(./Assets/adinekirnberg/AdineKirnberg.ttf);
 }
 
 
