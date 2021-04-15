@@ -7,7 +7,7 @@ const Banner = () => {
     return (
         <div>
             <section className="banner-area bg_cover" style={{ backgroundImage:`url(${BannerBg})` }}>
-                <div className="container banner-wrap">
+                <div className="container banner-wrap px-lg-0">
                     <div className="row">
                         <div className="col-lg-5 col-md-12">
                             <div className="banner-text">
