@@ -5,6 +5,7 @@ import About from '../Components/About/About';
 import Products from '../Components/Products/Products';
 import Events from '../Components/Events/Events';
 import Offer from '../Components/Offer/Offer';
+import LatestUpdate from '../Components/LatestUpdate/LatestUpdate';
 
 const Index = () => {
     return (
@@ -15,6 +16,7 @@ const Index = () => {
             <Products />
             <Events />
             <Offer />
+            <LatestUpdate />
         </div>
     );
 }
