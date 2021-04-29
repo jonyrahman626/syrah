@@ -8,7 +8,7 @@ const LatestUpdate = () => {
     return (
         <div>
             <section className="updates-area bg_cover pt-80 pb-80" style={{backgroundImage: `url(${LatestBg})`}}>
-                <div className="container">
+                <div className="container px-lg-0">
                     <div className="row align-items-center">
                         <div className="col-lg-4">
                             <div className="updates-text">
@@ -16,14 +16,14 @@ const LatestUpdate = () => {
                                     <h2 className="theme-color">Latest Updates</h2>
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisig elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <div className="slide-buttons">
+                                {/* <div className="slide-buttons">
                                     <button className="slide-btn arrow-left">
                                         <i className="fa fa-arrow-left"></i>
                                     </button>
                                     <button className="slide-btn arrow-right">
                                         <i className="fa fa-arrow-right"></i>
                                     </button>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="col-lg-8">
