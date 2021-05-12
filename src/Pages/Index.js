@@ -6,6 +6,7 @@ import Products from '../Components/Products/Products';
 import Events from '../Components/Events/Events';
 import Offer from '../Components/Offer/Offer';
 import LatestUpdate from '../Components/LatestUpdate/LatestUpdate';
+import Footer from '../Components/Footer/Footer';
 
 const Index = () => {
     return (
@@ -17,6 +18,7 @@ const Index = () => {
             <Events />
             <Offer />
             <LatestUpdate />
+            <Footer />
         </div>
     );
 }
