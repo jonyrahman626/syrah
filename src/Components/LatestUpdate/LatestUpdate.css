@@ -60,6 +60,15 @@
     margin-right: 15px;
 }
 
+
+.pb-80 {
+	padding-bottom: 80px;
+}
+
+.pt-80 {
+	padding-top: 80px;
+}
+
 .single-updates:hover .post-time {
 	background: #e4d2b9;
 }

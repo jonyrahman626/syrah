@@ -1,5 +1,7 @@
 import React from 'react';
 import Footer_bg from '../../Assets/images/banner-bg.jpg';
+import Logo from '../../Assets/images/logo.png';
+import Map from '../../Assets/images/map-preview.jpg';
 import './Footer.css';
 
 const Footer = () => {
@@ -11,7 +13,7 @@ const Footer = () => {
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="footer-logo text-center">
-                                    <img src="assets/images/logo/logo.png" alt="logo-white" />
+                                    <img src={Logo} alt="logo-white" />
                                 </div>
                             </div>
                         </div>
@@ -68,7 +70,7 @@ const Footer = () => {
                                     </form>
                                 </div>
                                 <div class="footer-map mt-30">
-                                    <img src="assets/images/footer/map-preview.jpg" alt="map-preview" class="w-100" />
+                                    <img src={Map} alt="map-preview" class="w-100" />
                                 </div>
                             </div>
                         </div>
