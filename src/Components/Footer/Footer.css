@@ -27,3 +27,24 @@
 .contact-wrap {
 	padding: 30px 0;
 }
+
+.contact-icon {
+	height: 70px;
+	width: 70px;
+	color: #ffffff;
+	background: #e6d5be;
+	text-align: center;
+	line-height: 70px;
+	font-size: 21px;
+	border-radius: 50px;
+}
+
+.pl-30 {
+	padding-left: 30px;
+}
+
+.contact-text span a, .contact-text span {
+	color: #ffffff;
+	font-size: 18px;
+	display: block;
+}

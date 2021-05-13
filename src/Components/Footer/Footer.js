@@ -2,6 +2,7 @@ import React from 'react';
 import Footer_bg from '../../Assets/images/banner-bg.jpg';
 import Logo from '../../Assets/images/logo.png';
 import Map from '../../Assets/images/map-preview.jpg';
+import {FontAwesomeIcon } from ''
 import './Footer.css';
 
 const Footer = () => {
