@@ -3,6 +3,7 @@ import Footer_bg from '../../Assets/images/banner-bg.jpg';
 import Logo from '../../Assets/images/logo.png';
 import Map from '../../Assets/images/map-preview.jpg';
 import {FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faFacebookF, faLinkedinIn, faPinterestP, faTwitter} from '@fortawesome/free-brands-svg-icons';
 import './Footer.css';
 
 const Footer = () => {
@@ -90,16 +91,16 @@ const Footer = () => {
                                     <div class="social-nav">
                                         <ul>
                                             <li>
-                                                <a href="YOUR_FACEBOOK_LINK"><i class="fa fa-facebook"></i></a>
+                                                <a href="YOUR_FACEBOOK_LINK"><FontAwesomeIcon icon={faFacebookF} /></a>
                                             </li>
                                             <li>
-                                                <a href="YOUR_TWITTER_LINK"><i class="fa fa-twitter"></i></a>
+                                                <a href="YOUR_TWITTER_LINK"><FontAwesomeIcon icon={faTwitter} /></a>
                                             </li>
                                             <li>
-                                                <a href="YOUR_LINKEDIN_LINK"><i class="fa fa-linkedin"></i></a>
+                                                <a href="YOUR_LINKEDIN_LINK"><FontAwesomeIcon icon={faLinkedinIn} /></a>
                                             </li>
                                             <li>
-                                                <a href="YOUR_PINTEREST_LINK"><i class="fa fa-pinterest-p"></i></a>
+                                                <a href="YOUR_PINTEREST_LINK"><FontAwesomeIcon icon={faPinterestP} /></a>
                                             </li>
                                         </ul>
                                     </div>
